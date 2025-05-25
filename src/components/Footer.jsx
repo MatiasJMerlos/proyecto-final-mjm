@@ -1,6 +1,5 @@
-import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import 'font-awesome/css/font-awesome.min.css'; 
+import 'font-awesome/css/font-awesome.min.css';
 
 const Footer = () => {
   return (
@@ -8,8 +7,8 @@ const Footer = () => {
       <Container>
         <Row>
           <Col md={6}>
-            <p className="mb-0">Todo por 2 pesos</p>
-            <p className="mb-0">Avenida Siempre viva 742, Springfield</p>
+            <p className="mb-0">Proyecto Final Merlos Matias Joaquin</p>
+            <p className="mb-0">Talento Tech C25017</p>
           </Col>
           <Col md={6}>
             <div>

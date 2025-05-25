@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 
@@ -12,20 +11,19 @@ const Header = () => {
             alt="Logo"
             className="d-inline-block align-top me-2"
           />
-          <span>Todo por 2 pesos - Lo mejor de Capussoto</span>
+          <span>Proyecto Final Merlos Matias Joaquin</span>
         </Navbar.Brand>
 
         <Nav className="ms-auto align-items-center">
           <Nav.Link as={Link} to="/" className="me-3">Home</Nav.Link>
           <Nav.Link as={Link} to="/ofertas" className="me-3">Ofertas</Nav.Link>
-          <Nav.Link as={Link} to="/infaltables" className="me-3">Infaltables</Nav.Link>
+          <Nav.Link as={Link} to="/productosDestacados" className="me-3">Productos Destacados</Nav.Link>
 
           <div className="d-flex align-items-center">
             <Button variant="outline-light" as={Link} to="/administracion" className="me-2">
               Administración
             </Button>
             <Link to="/carrito" className="text-white">
-              <FontAwesomeIcon icon={faShoppingCart} size="lg" />
             </Link>
           </div>
         </Nav>
